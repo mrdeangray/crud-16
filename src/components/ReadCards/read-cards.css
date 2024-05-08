@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.read-cards{
+    background-color: grey;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 60px repeat(3, 1fr) 60px;
+    grid-template-rows: 60px repeat(3, 1fr) 60px;
+}
+.header{
+    background-color: black;
+    grid-column: span 5;
+}
+.left{
+    background-color: pink;
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.main{
+    background-color: rgb(93, 93, 93);
+    grid-column: span 3;
+    grid-row: span 3;
+}
+.right{
+    background-color: pink;
+    grid-column: span 1;
+    grid-row: span 3;
+}
+.footer{
+    background-color: black;
+    grid-column: span 5;
+}
